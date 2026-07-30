@@ -1,7 +1,25 @@
 aid: lumos-helmet
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lumos-helmet.png
 name: Lumos Helmet
-description: Lumos Helmet is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Lumos (Lumos Helmet) is a consumer hardware company that designs and manufactures smart
+  bike helmets and connected bike lights with integrated safety features such as turn signals, brake
+  lights, and high-visibility LED lighting. Its product line spans commuter, e-bike, and kids' helmets
+  plus standalone smart bike lights, controlled through companion iOS and Android mobile apps. Backed by
+  Techstars, Lumos sells direct-to-consumer through an online store; it does not currently publish a
+  public API, developer platform, or SDK. This profile was enriched by the API Evangelist pipeline,
+  which confirmed no programmatic API surface and captured the company's identity and domain-security
+  posture.
 url: https://raw.githubusercontent.com/api-evangelist/lumos-helmet/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Consumer Hardware
+- Wearables
+- Cycling
+- Bike Safety
+- Smart Helmets
+- IoT
+- Mobile Apps
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/lumos-helmet-domain-security.yml
 - type: Website
   url: https://lumoshelmet.co/
+- type: Support
+  url: https://lumoshelmetsupport.zendesk.com/
+- type: PrivacyPolicy
+  url: https://ridelumos.com/policies/privacy-policy
+- type: TermsOfService
+  url: https://ridelumos.com/policies/terms-of-service
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
