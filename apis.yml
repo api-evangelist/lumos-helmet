@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://lumoshelmet.co/', status: 301, note: 'declared website redirects to https://ridelumos.com/ — a different registrable domain (lumoshelmet.co -> ridelumos.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lumos-helmet.png
 name: Lumos Helmet
 description: Lumos (Lumos Helmet) is a consumer hardware company that designs and manufactures smart
